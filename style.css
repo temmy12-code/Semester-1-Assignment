@@ -1,0 +1,249 @@
+
+
+/*navigation styling*/
+.hero{
+    height: 5%;
+    width: 100%;
+    background-color: #fdfdfd;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 20px;
+}
+.logo{
+    color:rgb(85, 85, 214);
+    font-size: 40px;
+    display: flex;
+
+}
+.head_logo{
+    display:inline-block
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:rgb(15, 15, 15);
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav_login{
+    display:flex;
+    align-items: center;
+}
+.nav_button{
+    display:inline-block;
+    padding-left: 10px;
+    margin-left: 10px;
+    
+}
+.login, button{
+    border:none;
+    background:#ea1538;
+    border-radius: 30px;
+    padding:12px 30px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    transition:0.4s;
+}
+button:hover{
+    transform: scale(1.4s);
+    cursor: pointer;
+}
+/*Header Styling*/
+#intro{
+    background-image: url(vector.png);
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.about_head{
+    margin: 10px;
+}
+span{
+    color:blue
+}
+.intro-paragraph{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+.about_button{
+    display:inline-block
+}
+/*achivement styling*/
+#achievement{
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.achievement_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.achieve{
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-content: center;
+    align-items: center;
+
+}
+.one_stop{
+    flex-grow: 1;
+}
+.list{
+    display:flex;
+    justify-content: space-around;
+}
+/* section 3 stylying*/
+#selectors{
+    display: inline-flex;
+}
+.selector1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    padding-right: 40px;
+}
+.selector1_paragraph{
+    display: flex;
+    align-items:center;
+    gap: 1rem;
+    align-content:last baseline;
+}
+.selector1_img{
+    width: 0.00625rem;
+    height: 3rem;
+}
+.choose{
+    color: #141414;
+    font-size: 2.5rem;
+    line-height: 2rem;
+}
+.sel1_paragraph{
+    display: flex;
+width: 23.125rem;
+height: 12rem;
+flex-direction: column;
+}
+.selector2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 4rem;
+padding-left: 40px;
+}
+.selector2_sub{
+    display: flex;
+align-items: flex-start;
+gap: 1.75rem;}
+
+/*Section4 pricing styling
+.price_headp{
+    display: flex;
+width: 34.75rem;
+height: 3.25rem;
+flex-direction: column;
+color: var(--text-color-main-text, #141414);
+text-align: center;
+font-size: 1rem;
+font-family: Gilroy-Medium;
+line-height: 1.5rem;
+}*/
+
+
+.form-container{
+    width: 90rem;
+    height: 32.6875rem;
+}
+.form-box{
+    display: inline-flex;
+    padding: 2.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+form{display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem; 
+}
+.footer{
+    background-color: #6fd1d4;
+    padding: 70px ;
+}
+.footer-container{
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.footer-row{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content: flex-start;
+}
+.why_scissor{
+    width:25%;
+    padding: 0 15px;
+    
+}
+.why_scissor h4{
+    font-size: 18px;
+    color:#141414;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    align-self: center;
+    align-items: center;
+}
+.why_scissor h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.why_scissor ul li:not(:last-child) {
+    margin-bottom: 10px;
+
+}
+.why_scissor ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#141414;
+    text-decoration: none;
+    font-weight: 300;
+    color:#ea1538
+}
+.why_scissor ul li a:hover{
+    color:#fdfdfd;
+    padding-left: 8px;
+
+}
