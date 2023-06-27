@@ -2,6 +2,7 @@
 *{
     margin:0;
     font-family: 'Gilroy-Regular', sans-serif;
+    
 }
 
 /*navigation styling*/
@@ -171,7 +172,7 @@ align-items: flex-start;
 gap: 1.75rem;
 }
 #pricing{
-    font-family: gilbroy;
+    font-family: 'Gilroy-Medium', sans-serif;
     padding-top: 30px;
 }
 .price_intro{
@@ -253,6 +254,53 @@ gap: 1.75rem;
     border-width: 2px;
     border-color: #5060eb;
 }
+.faqhead{
+    text-align: center;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.faqlist{
+    max-width: 800px;
+    padding-top: 20px;
+}
+.faqlist .faque{
+    position: relative;
+    margin: 10px 20px;
+}
+.faqlist .faque .faqlabel{
+    position: relative;
+    padding: 10px;
+    background: #dee4e4;
+    cursor: pointer;
+}
+.faqlist .faque .faqlabel::before{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform:translateY(-50%);
+    font-size: 1.5em;
+}
+.faqlist .faque.active .faqlabel::before{
+    content: "-";
+}
+.faqlist .faque .faqanswer{
+    position: relative;
+    background: #fdfdfd;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+
+}
+.faqlist .faque.active .faqanswer{
+    height:150px;
+    padding: 10px;
+}
+
+
 
 
 /*Section4 pricing styling
